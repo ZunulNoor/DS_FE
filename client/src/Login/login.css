@@ -1,0 +1,58 @@
+.logincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.logincontainer h4{
+  color: #1F425D;
+}
+.form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #c2bfbf;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(17, 16, 16, 0.733);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.loginbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  transition: border-radius 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.loginbutton:hover {
+  border-radius: 50px;
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.create-account-button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  outline: none;
+}
